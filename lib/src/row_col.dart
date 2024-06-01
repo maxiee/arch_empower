@@ -11,7 +11,7 @@ class R extends StatelessWidget {
     return IntrinsicHeight(
       child: Row(
         mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: children.map((e) {
           if (flexes != null) {
             return Expanded(flex: flexes![children.indexOf(e)], child: e);

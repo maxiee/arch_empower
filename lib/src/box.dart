@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 
 class Box extends StatelessWidget {
   const Box(
-      {super.key, required this.title, required this.color, this.height = 50});
+      {super.key,
+      required this.title,
+      this.color = Colors.white,
+      this.height = 50});
 
   final String title;
   final Color color;
