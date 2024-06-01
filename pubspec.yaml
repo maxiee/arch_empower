@@ -1,7 +1,7 @@
 name: arch_empower
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A powerful and efficient architecture diagram generation tool built with Flutter."
+version: 1.0.0
+homepage: https://github.com/maxiee/arch_empower
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
