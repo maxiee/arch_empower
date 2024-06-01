@@ -4,7 +4,7 @@
 
 `arch_empower` 是一个基于 Flutter 的架构图绘制工具，让开发者能够以极高的效率生成美观、响应式的架构图。
 
-![](docs/images/demo.png)
+![](doc/images/demo.png)
 
 ## 特点
 
@@ -87,7 +87,7 @@ arch_empower 采用 MIT 许可证进行发布。详细信息请参阅 [LICENSE](
 
 如果你觉得 arch_empower 对你有帮助，欢迎在爱发电上支持我的工作：
 
-[<img src="docs/images/afd.jpg" alt="sponsor" width="200"/>](./docs/images/afd.jpg)
+[<img src="docs/images/afd.jpg" alt="sponsor" width="200"/>](./doc/images/afd.jpg)
 
 ## 联系方式
 
