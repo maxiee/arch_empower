@@ -89,7 +89,7 @@ arch_empower 采用 MIT 许可证进行发布。详细信息请参阅 [LICENSE](
 
 [maeiee正在创作技术写作，分享互联网技术 | 爱发电](https://afdian.net/a/maeiee)
 
-<img src="docs/images/afd.jpg" alt="sponsor" width="200"/>
+![](doc/images/afd.jpg)
 
 ## 联系方式
 
