@@ -1,6 +1,6 @@
 # arch_empower - 架构赋能
 
-[![Pub Version](https://img.shields.io/pub/v/arch_empower)](https://pub.dev/packages/arch_empower）
+[![Pub Version](https://img.shields.io/pub/v/arch_empower)](https://pub.dev/packages/arch_empower)
 
 > 有没有觉得绘制架构图很麻烦？有没有想过用代码生成架构图？有没有想过架构图可以自适应不同的屏幕宽度？
 
