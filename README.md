@@ -1,5 +1,7 @@
 # arch_empower - 架构赋能
 
+[![Pub Version](https://img.shields.io/pub/v/arch_empower)](https://pub.dev/packages/arch_empower）
+
 > 有没有觉得绘制架构图很麻烦？有没有想过用代码生成架构图？有没有想过架构图可以自适应不同的屏幕宽度？
 
 `arch_empower` 是一个基于 Flutter 的架构图绘制工具，让开发者能够以极高的效率生成美观、响应式的架构图。
