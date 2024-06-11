@@ -1,3 +1,4 @@
+import 'package:arch_empower/arch_empower.dart';
 import 'package:flutter/material.dart';
 
 class Group extends StatelessWidget {
@@ -15,16 +16,16 @@ class Group extends StatelessWidget {
           border: Border.all(color: Colors.grey),
           borderRadius: BorderRadius.circular(10),
         ),
-        child: Column(
+        child: C(
           children: [
-            Row(children: [
+            R(children: [
               Text(
                 title,
                 style: const TextStyle(fontWeight: FontWeight.bold),
               )
             ]),
-            if (child != null) SizedBox(height: 10),
-            if (child != null) child!,
+            if (child != null) const SizedBox(height: 10),
+            if (child != null) Flexible(child: child!),
           ],
         ));
   }
