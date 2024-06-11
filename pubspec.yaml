@@ -1,6 +1,6 @@
 name: arch_empower
 description: "A powerful and efficient architecture diagram generation tool built with Flutter."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/maxiee/arch_empower
 
 environment:
