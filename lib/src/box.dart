@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
 class Box extends StatelessWidget {
-  const Box(
-      {super.key,
-      required this.title,
-      this.color = Colors.white,
-      this.height = 50});
+  const Box({
+    super.key,
+    required this.title,
+    this.subtitle,
+    this.color = Colors.white,
+  });
 
   final String title;
+  final String? subtitle;
   final Color color;
-  final double height;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: height,
       margin: const EdgeInsets.all(4),
       padding: const EdgeInsets.all(6),
       decoration: BoxDecoration(
@@ -23,8 +23,15 @@ class Box extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
       ),
       child: Center(
-        child: Text(
-          title,
+        child: FittedBox(
+          child: Column(mainAxisSize: MainAxisSize.min, children: [
+            Text(
+              title,
+            ),
+            if (subtitle != null)
+              Text(subtitle!,
+                  style: const TextStyle(fontSize: 14, color: Colors.grey)),
+          ]),
         ),
       ),
     );
